@@ -1,5 +1,7 @@
 # Linear MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@tiovikram/linear-mcp)](https://smithery.ai/server/@tiovikram/linear-mcp)
+
 > Note: This is a custom implementation. For the official Cline Linear MCP server, see [cline/linear-mcp](https://github.com/cline/linear-mcp).
 
 A Model Context Protocol (MCP) server that provides tools for interacting with Linear's API, enabling AI agents to manage issues, projects, and teams programmatically through the Linear platform.
@@ -90,6 +92,14 @@ LINEAR_API_KEY=your-api-key ./run.sh
 ## Configuration
 
 Configure the MCP server in your settings file based on your client:
+
+### Installing via Smithery
+
+To install Linear MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@tiovikram/linear-mcp):
+
+```bash
+npx -y @smithery/cli install @tiovikram/linear-mcp --client claude
+```
 
 ### For Claude Desktop
 
